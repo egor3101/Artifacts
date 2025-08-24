@@ -2,12 +2,11 @@ import requests
 import os
 
 
-url = "https://api.artifactsmmo.com/my/Heisenberg/action/unequip"
+url = "https://api.artifactsmmo.com/my/Heisenberg/action/crafting"
 token = os.getenv('API_TOKEN')
 
-
 payload = {
-    "slot": "weapon",
+    "code": "wooden_staff"
 }
 
 headers = {
